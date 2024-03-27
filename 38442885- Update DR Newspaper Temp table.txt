@@ -1,0 +1,35 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_RUTE_DR_NP_UPD: XXCU: Update DR Newspaper Temp table
++---------------------------------------------------------------------------+
+
+Current system time is 20-MAR-2024 07:20:07
+
++---------------------------------------------------------------------------+
+
+[20-MAR-2024 07:20:07]: **Starts**
+[20-MAR-2024 07:20:07]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Error: in verify_site ORA-02019: connection description for remote database not found
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 20-MAR-2024 07:20:07
+
++---------------------------------------------------------------------------+

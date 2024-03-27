@@ -1,0 +1,262 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCUREC2: XXCU Rute-XXRP Reconciliation Report 2
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 14:10:35
+
++---------------------------------------------------------------------------+
+
+CP main executing runProgram for oracle.apps.xdo.oa.cp.JCP4XDODataEngine
+XDO Data Engine Version No: 10.1.3.4.2
+Resp: 50736
+Org ID : 81
+Request ID: 38442614
+All Parameters: p_from_date="2024/03/17 00:00:00":p_to_date="2024/03/18 00:00:00":p_email=chiranjeevi.pojala@posten.no
+Data Template Code: XXCUREC2
+Data Template Application Short Name: XXCU
+Debug Flag: N
+{p_from_date=2024/03/17 00:00:00, p_to_date=2024/03/18 00:00:00, p_email=chiranjeevi.pojala@posten.no}
+Calling XDO Data Engine...
+[031824_151038175][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in CP parameter list : null
+[031824_151038176][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in Apps Preference : null
+[031824_151038177][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in Apps Profile : null
+[031824_151038177][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in Apps Env : /u01/shdev/apps/fs1/EBSapps/appl/xdo/12.0.0
+[031824_151038178][][EXCEPTION] [DEBUG] Setting XDO_TOP to java system properties : /u01/shdev/apps/fs1/EBSapps/appl/xdo/12.0.0
+XDO Config properteies :null
+[031824_151038179][][STATEMENT] Start process Data
+[031824_151038179][][STATEMENT] Process Data ...
+[031824_151038179][][STATEMENT] Executing data triggers...
+[031824_151038179][][STATEMENT] BEGIN
+APPS.XXCU_BURSTING.p_from_date := :p_from_date ;
+APPS.XXCU_BURSTING.p_to_date := :p_to_date ;
+APPS.XXCU_BURSTING.p_email := :p_email ;
+
+ :XDO_OUT_PARAMETER := 1; 
+END;
+
+[031824_151038180][][STATEMENT] 1:2024-03-17 00:00:00.0 :
+[031824_151038180][][STATEMENT] 2:2024-03-18 00:00:00.0 :
+[031824_151038180][][STATEMENT] 3:chiranjeevi.pojala@posten.no :
+[031824_151038181][][STATEMENT] Executing data triggers...
+[031824_151038181][][STATEMENT] p_from_date
+[031824_151038182][][STATEMENT] p_to_date
+[031824_151038182][][STATEMENT] p_email
+[031824_151038182][][STATEMENT] Writing Data ...
+[031824_151038183][][STATEMENT] Sql Query :START_DATAQ: select to_char(sysdate, 'YYYY.MM.DD') as date_started
+      ,to_char(sysdate, 'HH24:MI:SS') as time_started
+      ,to_char(sysdate, 'YYYYMMDD') as date_started_short
+      ,to_char(sysdate, 'HH24MISS') as time_started_short
+      from dual
+[031824_151038193][][STATEMENT] Sql Query :SYSINFO_DATAQ: select case
+      when :p_from_date is null then 'EMPTY'
+      else to_char(:p_from_date, 'YYYY.MM.DD')
+      end param_from_date
+      ,case
+      when :p_to_date is null then 'EMPTY'
+      else to_char(:p_to_date, 'YYYY.MM.DD')
+      end as param_to_date
+      ,v.value as INSTANCE
+      ,case
+      when :p_email is null then 'EMPTY'
+      else :p_email
+      end param_email
+      ,case
+      when :p_from_date is null then to_char(trunc(sysdate -1), 'YYYY.MM.DD HH24:MI:SS')
+      else to_char(:p_from_date, 'YYYY.MM.DD HH24:MI:SS')
+      end as actual_from_date
+      ,case
+      when :p_to_date is null then to_char(trunc(sysdate), 'YYYY.MM.DD HH24:MI:SS')
+      else to_char(:p_to_date, 'YYYY.MM.DD HH24:MI:SS')
+      end as actual_to_date
+      from sys.V_$PARAMETER v
+      where v.name = 'instance_name'
+[031824_151038194][][STATEMENT] 1: p_from_date:2024-03-17 00:00:00.0
+[031824_151038194][][STATEMENT] 2: p_from_date:2024-03-17 00:00:00.0
+[031824_151038194][][STATEMENT] 3: p_to_date:2024-03-18 00:00:00.0
+[031824_151038194][][STATEMENT] 4: p_to_date:2024-03-18 00:00:00.0
+[031824_151038194][][STATEMENT] 5: p_email:chiranjeevi.pojala@posten.no
+[031824_151038194][][STATEMENT] 6: p_email:chiranjeevi.pojala@posten.no
+[031824_151038194][][STATEMENT] 7: p_from_date:2024-03-17 00:00:00.0
+[031824_151038194][][STATEMENT] 8: p_from_date:2024-03-17 00:00:00.0
+[031824_151038194][][STATEMENT] 9: p_to_date:2024-03-18 00:00:00.0
+[031824_151038194][][STATEMENT] 10: p_to_date:2024-03-18 00:00:00.0
+[031824_151038201][][STATEMENT] Sql Query :TO_EMAIL_DATAQ: select nvl(:p_email, (select LTRIM(MAX(SYS_CONNECT_BY_PATH(EMAIL_ADDRESS,', '))
+                                    KEEP (DENSE_RANK LAST ORDER BY curr),', ')
+                                    FROM   (SELECT IDENTIFICATION,
+                                                    ADDRESS_TYPE,
+                                                    EMAIL_ADDRESS,
+                                                    ROW_NUMBER() OVER (PARTITION BY IDENTIFICATION, ADDRESS_TYPE ORDER BY EMAIL_ADDRESS, ADDRESS_TYPE) AS curr,
+                                                    ROW_NUMBER() OVER (PARTITION BY IDENTIFICATION, ADDRESS_TYPE ORDER BY EMAIL_ADDRESS, ADDRESS_TYPE) -1 AS prev
+                                             FROM   XXCU.XXCU_MAIL_ADDRESSES
+                                                   ,sys.V_$PARAMETER v
+                                             WHERE  IDENTIFICATION='XXCUREC2'
+                                               AND  ADDRESS_TYPE='TO'
+                                               AND  ENVIRONMENT = V.VALUE
+                                               AND  V.NAME = 'instance_name')
+                                     GROUP BY IDENTIFICATION, ADDRESS_TYPE
+                                     CONNECT BY prev = PRIOR curr AND IDENTIFICATION = PRIOR IDENTIFICATION
+                                     start WITH curr = 1)) AS TO_EMAIL_ADDRESS
+        from dual
+[031824_151038201][][STATEMENT] 1: p_email:chiranjeevi.pojala@posten.no
+[031824_151038221][][STATEMENT] Sql Query :CC_EMAIL_DATAQ: SELECT CASE
+            WHEN :p_email IS NOT NULL THEN ''
+            ELSE (SELECT LTRIM(MAX(SYS_CONNECT_BY_PATH(EMAIL_ADDRESS,', '))
+                     KEEP (DENSE_RANK LAST ORDER BY curr),', ') AS CC_EMAIL_ADDRESS
+                     FROM   (SELECT IDENTIFICATION,
+                                    ADDRESS_TYPE,
+                                    EMAIL_ADDRESS,
+                                    ROW_NUMBER() OVER (PARTITION BY IDENTIFICATION, ADDRESS_TYPE ORDER BY EMAIL_ADDRESS, ADDRESS_TYPE) AS curr,
+                                    ROW_NUMBER() OVER (PARTITION BY IDENTIFICATION, ADDRESS_TYPE ORDER BY EMAIL_ADDRESS, ADDRESS_TYPE) -1 AS prev
+                     FROM   XXCU.XXCU_MAIL_ADDRESSES
+                           ,sys.V_$PARAMETER v
+                     WHERE  IDENTIFICATION='XXCUREC2'
+                       AND  ADDRESS_TYPE='CC'
+                       AND  ENVIRONMENT = V.VALUE
+                       AND  V.NAME = 'instance_name')
+                     GROUP BY IDENTIFICATION, ADDRESS_TYPE
+                     CONNECT BY prev = PRIOR curr AND IDENTIFICATION = PRIOR IDENTIFICATION
+                     start WITH curr = 1)
+            END AS CC_EMAIL_ADDRESS
+            FROM DUAL
+[031824_151038221][][STATEMENT] 1: p_email:chiranjeevi.pojala@posten.no
+[031824_151038234][][STATEMENT] Sql Query :FWDHEAD_DATAQ: select fhf.forwarding_header_id
+			      ,to_char(fhf.date_active_from, 'YYYY.MM.DD') as date_active_from
+			      ,fhf.status_code
+			      ,fhf.type_code
+			      ,to_char(fhf.registration_date, 'YYYY.MM.DD HH24:MI:SS') as registration_date
+			      ,to_char(fhf.registration_date, 'YYYY.MM.DD') as reg_date
+			      ,count(*) over ( ) as FWDHEAD_COUNT
+			from apps.xxad_forwarding_headers@FARDB fhf
+			where fhf.creation_date between nvl(:p_from_date, trunc(sysdate -1)) and nvl(:p_to_date, trunc(sysdate))
+			  and not exists
+			  		(
+			  		select 1
+			  		from xxrp.xxrp_forwarding_headers fh
+			  		where fhf.forwarding_header_id = fh.forwarding_header_id
+			  		)
+[031824_151038234][][STATEMENT] 1: p_from_date:2024-03-17 00:00:00.0
+[031824_151038234][][STATEMENT] 2: p_to_date:2024-03-18 00:00:00.0
+[031824_151038898][][STATEMENT] Sql Query :LOCATIONS_DATAQ: select flf.location_id
+				      ,flf.role_code
+				      ,fhf.forwarding_header_id
+				      ,to_char(fhf.date_active_from, 'YYYY.MM.DD') as date_active_from
+				      ,fhf.status_code
+				      ,fhf.type_code
+				      ,to_char(fhf.registration_date, 'YYYY.MM.DD HH24:MI:SS') as registration_date
+				      ,to_char(fhf.registration_date, 'YYYY.MM.DD') as reg_date
+				      ,count(*) over ( ) as LOCATIONS_COUNT
+				from apps.xxad_forwarding_headers@FARDB fhf
+				   , apps.xxad_forwarding_locations@FARDB flf
+				where flf.creation_date between nvl(:p_from_date, trunc(sysdate -1)) and nvl(:p_to_date, trunc(sysdate))
+				  and fhf.forwarding_header_id = flf.forwarding_header_id
+				  and not exists
+				  		(
+				  		select 1
+				  		from xxrp.xxrp_forwarding_locations fl
+				  		where flf.forwarding_location_id = fl.forwarding_location_id
+				  		)
+[031824_151038898][][STATEMENT] 1: p_from_date:2024-03-17 00:00:00.0
+[031824_151038898][][STATEMENT] 2: p_to_date:2024-03-18 00:00:00.0
+[031824_151039095][][STATEMENT] Sql Query :PARTIES_DATAQ: select fpf.party_id
+							,fhf.forwarding_header_id
+							,to_char(fhf.date_active_from, 'YYYY.MM.DD') as date_active_from
+							,fhf.status_code
+							,fhf.type_code
+							,to_char(fhf.registration_date, 'YYYY.MM.DD HH24:MI:SS') as registration_date
+				      ,to_char(fhf.registration_date, 'YYYY.MM.DD') as reg_date
+				      ,count(*) over ( ) as PARTIES_COUNT
+				from apps.xxad_forwarding_headers@FARDB fhf
+				   , apps.xxad_forwarding_parties@FARDB fpf
+				where fpf.creation_date between nvl(:p_from_date, trunc(sysdate -1)) and nvl(:p_to_date, trunc(sysdate))
+				  and fhf.forwarding_header_id = fpf.forwarding_header_id
+				  and not exists
+				  		(
+				  		select 1
+				  		from xxrp.xxrp_forwarding_parties fp
+				  		where fpf.forwarding_party_id = fp.forwarding_party_id
+				  		)
+[031824_151039095][][STATEMENT] 1: p_from_date:2024-03-17 00:00:00.0
+[031824_151039095][][STATEMENT] 2: p_to_date:2024-03-18 00:00:00.0
+[031824_151039261][][STATEMENT] Sql Query :LOC_USES_DATAQ: select flf.location_id
+							,flf.role_code
+							,fluf.operation_code
+							,fluf.site_use_code
+							,fhf.forwarding_header_id
+							,to_char(fhf.date_active_from, 'YYYY.MM.DD') as date_active_from
+							,fhf.status_code
+							,fhf.type_code
+							,to_char(fhf.registration_date, 'YYYY.MM.DD HH24:MI:SS') as registration_date
+					    ,to_char(fhf.registration_date, 'YYYY.MM.DD') as reg_date
+					    ,count(*) over ( ) as LOC_USES_COUNT
+				from apps.xxad_forwarding_headers@FARDB fhf
+				   , apps.xxad_forwarding_locations@FARDB flf
+				   , apps.xxad_forwarding_loc_uses@FARDB fluf
+				where fluf.creation_date between nvl(:p_from_date, trunc(sysdate -1)) and nvl(:p_to_date, trunc(sysdate))
+				  and fluf.forwarding_location_id = flf.forwarding_location_id
+				  and fhf.forwarding_header_id = flf.forwarding_header_id
+				  and not exists
+				  		(
+				  		select 1
+				  		from xxrp.xxrp_forwarding_loc_uses flu
+				  		where fluf.forwarding_loc_use_id = flu.forwarding_loc_use_id
+				  		)
+[031824_151039261][][STATEMENT] 1: p_from_date:2024-03-17 00:00:00.0
+[031824_151039261][][STATEMENT] 2: p_to_date:2024-03-18 00:00:00.0
+[031824_151039560][][STATEMENT] Sql Query :END_DATAQ: select to_char(sysdate, 'YYYY.MM.DD') as date_ended
+      ,to_char(sysdate, 'HH24:MI:SS') as time_ended
+      from dual
+[031824_151039561][][STATEMENT] Executing data triggers...
+[031824_151039561][][STATEMENT] Declare 
+l_flag Boolean; 
+BEGIN 
+l_flag := apps.XXCU_BURSTING.submit_bursting ;
+if (l_flag) then 
+:XDO_OUT_PARAMETER := 1; 
+ end if; 
+ end; 
+
+[031824_151039578][][EVENT] Data Generation Completed...
+[031824_151039578][][EVENT] Total Data Generation Time 1.0 seconds
+CP main completed runProgram for oracle.apps.xdo.oa.cp.JCP4XDODataEngine
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+p_pid=
+myCRID=38442614
+bursting_request_id=38442615
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+Executing request completion options...
+
+Output file size: 
+1376
+
++--------- 1) POST-PROCESSING  ---------+
+Beginning post-processing of request 38442614 on node VM-APP-SH-DEV-01 at 18-MAR-2024 14:10:39.
+-- Publishing output
+
+ 
+Post-processing of request 38442614 completed at 18-MAR-2024 14:10:39.
+ 
+CONC-POST-PROCESSING RESULTS
+
+-- PUBLISH: 
+CONC-OPP-XMLPUB SUCCESS
++---------------------------------------+
+
+
+Finished executing request completion options.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 14:10:39
+
++---------------------------------------------------------------------------+

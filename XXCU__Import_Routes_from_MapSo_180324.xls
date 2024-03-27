@@ -1,0 +1,71 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_RRS_ROUTE_IMP_MAPSOL: XXCU: Import Routes from MapSolution
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 12:16:04
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 12:16:04]: **Starts**
+[18-MAR-2024 12:20:35]: **Ends**
+There were issues with Route creation. Refer Log file.: User-Defined Exception
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+PV_IN_MR_UNIT_NUMBER-101370
+Unit is Locked and Planning Flag is on, Start Validation before Import..
+Beginning of the procedure to process the Routes and Stops for Team Unit Number : 101370
+Some Attribute value is missing for Route Number : 0017
+---------- Start Processing for Import -----------
+0 Unplaced Stop(s) exists in MS: 0014
+New Hierarchy Created for Route, 0014 : 101370_0014_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0004
+New Hierarchy Created for Route, 0004 : 101370_0004_A_1803241316_MS
+1 Unplaced Stop(s) exists in MS: 0005
+New Hierarchy Created for Route, 0005 : 101370_0005_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0003
+New Hierarchy Created for Route, 0003 : 101370_0003_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0013
+New Hierarchy Created for Route, 0013 : 101370_0013_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0011
+New Hierarchy Created for Route, 0011 : 101370_0011_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0015
+New Hierarchy Created for Route, 0015 : 101370_0015_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0012
+New Hierarchy Created for Route, 0012 : 101370_0012_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0006
+New Hierarchy Created for Route, 0006 : 101370_0006_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0008
+New Hierarchy Created for Route, 0008 : 101370_0008_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0010
+New Hierarchy Created for Route, 0010 : 101370_0010_A_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0016
+New Hierarchy Created for Route, 0016 : 101370_0016_B_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0029
+New Hierarchy Created for Route, 0029 : 101370_0029_B_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0030
+New Hierarchy Created for Route, 0030 : 101370_0030_B_1803241316_MS
+0 Unplaced Stop(s) exists in MS: 0027
+New Hierarchy Created for Route, 0027 : 101370_0027_B_1803241316_MS
+Stop Number : 10028845, in Route Number : 0027, failed to move from old Route101370_0026_B to new Route 101370_0027_B_1803241316_MS  Error Status :ERROR Error Message: No Hierarchy was found with the name 101370_0026_B.
+There were issues with Route creation. Refer Log file.: User-Defined Exception
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+124
+
++---------------------------------------------------------------------------+
+Concurrent request completed
+Current system time is 18-MAR-2024 12:20:35
+
++---------------------------------------------------------------------------+

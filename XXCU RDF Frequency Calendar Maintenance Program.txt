@@ -1,0 +1,46 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_RDF_FREQ_CAL_PROG: XXCU RDF Frequency Calendar Maintenance Program
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 13:57:00
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 13:57:00]: **Starts**
+[18-MAR-2024 13:57:00]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Start at 18.03.2024 14.57.00,641807000 +01:00
+LV_NO_OF_DAYS 365
+LV_TILL_DATE 18-MAR-25
+LV_CURR_DATE 18-MAR-24
+LV_START_FREQ_TYPE A
+LV_RDF_CAL_EXISTING_DATA_COUNT 1944
+LV_0_FREQ_TYPE_COUNT 1
+LV_START_DATE 19-MAY-20
+LV_START_DATE 18-MAR-24
+LV_START_FREQ_TYPE A
+LV_RDF_CAL_INSERT_DATA_COUNT 504
+End at 18.03.2024 14.57.00,791631000 +01:00
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 13:57:00
+
++---------------------------------------------------------------------------+

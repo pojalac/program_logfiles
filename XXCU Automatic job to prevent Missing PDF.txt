@@ -1,0 +1,46 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_SAAS_EBS_MISSING_PDF: XXCU Automatic job to prevent Missing PDF
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 13:57:36
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 13:57:36]: **Starts**
+[18-MAR-2024 13:57:37]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Total number record received for processing:: 0
+Error in finding details for RA001 program: ORA-01403: no data found
+Status of XXRP_RA001 -  || Phase Code -  || Status Code - 
+Error in finding details for RA002 program: ORA-01403: no data found
+Status of XXRP_RA002 -  || Phase Code -  || Status Code - 
+Error in finding details for RA003 program: ORA-01403: no data found
+Status of XXRP_RA003 -  || Phase Code -  || Status Code - 
+Validation Status:: E
+Dummy saving of forwarding can not be done
+Possible reasons are either RA reports did not completed sucessfully on - 18-MAR-24
+ OR More than 200 records received from SAS
+Checking if duplicate records exist, call XX_CHECK_DUP_MAIL_PRC
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 13:57:37
+
++---------------------------------------------------------------------------+

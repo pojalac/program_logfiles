@@ -1,0 +1,75 @@
++---------------------------------------------------------------------------+
+Posten Rapportering: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+R012B: XXRP_R012B Komplett Ruteoversikt Postboks
++---------------------------------------------------------------------------+
+
+Current system time is 27-MAR-2024 10:51:04
+
++---------------------------------------------------------------------------+
+
+
++-----------------------------
+| Starting concurrent program execution...
++-----------------------------
+
+Arguments
+------------
+P_UNIT_NUMBER='129283'
+------------
+
+Forcing NLS_NUMERIC_CHARACTERS to: '.,' for XDO processing
+
+ APPLLCSP Environment Variable set to :
+
+ Current NLS_LANG, NLS_NUMERIC_CHARACTERS and NLS_SORT Environment Variables are :
+AMERICAN_NORWAY.UTF8
+
+'.,'
+
+BINARY
+
+Enter Password: 
+
+Report Builder: Release 10.1.2.3.0 - Production on Wed Mar 27 10:51:05 2024
+
+Copyright (c) 1982, 2005, Oracle.  All rights reserved.
+
+
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+Executing request completion options...
+
+Output file size: 
+148378
+
++--------- 1) POST-PROCESSING  ---------+
+Beginning post-processing of request 38443947 on node VM-APP-SH-DEV-01 at 27-MAR-2024 10:51:10.
+-- Publishing output
+
+ 
+Post-processing of request 38443947 completed at 27-MAR-2024 10:51:12.
+ 
+CONC-POST-PROCESSING RESULTS
+
+-- PUBLISH: 
+CONC-OPP-XMLPUB SUCCESS
++---------------------------------------+
+
+
+Finished executing request completion options.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 27-MAR-2024 10:51:12
+
++---------------------------------------------------------------------------+

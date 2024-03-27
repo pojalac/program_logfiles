@@ -1,0 +1,36 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_RRS_ROUTE_IMP_MAPSOL: XXCU: Import Routes from MapSolution
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 12:24:04
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 12:24:04]: **Starts**
+[18-MAR-2024 12:24:04]: **Ends**
+No distribution unit numbers are provided to import master route
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+PV_IN_MR_UNIT_NUMBER-
+No distribution unit numbers are provided to import master route
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+124
+
++---------------------------------------------------------------------------+
+Concurrent request completed
+Current system time is 18-MAR-2024 12:24:04
+
++---------------------------------------------------------------------------+

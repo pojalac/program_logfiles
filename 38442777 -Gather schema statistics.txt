@@ -1,0 +1,42 @@
++---------------------------------------------------------------------------+
+Application Object Library: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+FNDGSCST: Gather Schema Statistics
++---------------------------------------------------------------------------+
+
+Current system time is 19-MAR-2024 14:28:39
+
++---------------------------------------------------------------------------+
+
+[19-MAR-2024 14:28:39]: **Starts**
+[19-MAR-2024 14:32:58]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+In GATHER_SCHEMA_STATS , schema_name= XXCU percent= 100 degree = 10 internal_flag= NOBACKUP
+stats on table XXCU_RUTE_LM_POSTCODE_QT is locked 
+stats on table XXCU_RUTE_OUT_PUBQ_QT is locked 
+stats on table XXAD_PS_TO_RUTE_QT is locked 
+stats on table XXAD_PS_FROM_RUTE_QT is locked 
+stats on table XXCU_TR_TO_DR_QT is locked 
+stats on table XXCU_SEND_DMB_SNDB_QT is locked 
+stats on table XXCU_DR_NEWSPPR_SUBS_QT is locked 
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 19-MAR-2024 14:32:58
+
++---------------------------------------------------------------------------+

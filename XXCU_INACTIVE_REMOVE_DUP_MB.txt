@@ -1,0 +1,505 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCUINACTIVEREMOVEDUPMB: XXCU_INACTIVE_REMOVE_DUP_MB
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 13:13:35
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 13:13:36]: **Starts**
+[18-MAR-2024 13:13:39]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Location to be Processed:- 5887051
+Mailbox to Be Inactivated and Removed:15914182
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15914182 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15914182
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:107484 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15914182-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15914182
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15914182-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5890686
+Mailbox to Be Inactivated and Removed:15916975
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15916975 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15916975
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15916975-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15916975
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15916975-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5909328
+Mailbox to Be Inactivated and Removed:15932824
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15932824 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15932824
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15932824-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15932824
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15932824-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5890970
+Mailbox to Be Inactivated and Removed:15917242
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15917242 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15917242
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15917242-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15917242
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15917242-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5891207
+Mailbox to Be Inactivated and Removed:15917400
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15917400 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15917400
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15917400-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15917400
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15917400-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5909325
+Mailbox to Be Inactivated and Removed:15932823
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15932823 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15932823
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15932823-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15932823
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15932823-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5887054
+Mailbox to Be Inactivated and Removed:15914184
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15914184 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15914184
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:107484 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15914184-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15914184
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15914184-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5909314
+Mailbox to Be Inactivated and Removed:15932814
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15932814 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15932814
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15932814-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15932814
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15932814-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5890683
+Mailbox to Be Inactivated and Removed:15916973
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15916973 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15916973
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15916973-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15916973
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15916973-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Location to be Processed:- 5890997
+Mailbox to Be Inactivated and Removed:15917260
+Status of the Mailbox Before Removed:A
+Count of Mailbox:2
+Count Party Sites for Mailox:15917260 Count: 0
+call_CreateUpdateHierarchy: Mailbox to Be Removed:15917260
+call_CreateUpdateHierarchy: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Hierarchy Name:806711 Arbeidsliste Rute
+Error Occured: call_CreateUpdateHierarchy: Site Identification no:15917260-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+call_UpdateSiteHeaderAddress: Mailbox to Be Removed:15917260
+call_UpdateSiteHeaderAddress: x_return_status:Ex_error_message:<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Error Occured: updateSiteheaderaddress: Site Identification no:15917260-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>400 Bad Request</title>
+</head><body>
+<h1>Bad Request</h1>
+<p>The request could not be understood by server due to
+malformed syntax.</p>
+</body></html>
+
+Status of the Mailbox After  Removed:A
+
+
+Total Duplicate Mailbox Processed: 10
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 13:13:39
+
++---------------------------------------------------------------------------+

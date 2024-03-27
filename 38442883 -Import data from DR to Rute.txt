@@ -1,0 +1,37 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_RUTE_DR_NP_IMPORT: XXCU: Import data from DR to Rute
++---------------------------------------------------------------------------+
+
+Current system time is 20-MAR-2024 07:20:05
+
++---------------------------------------------------------------------------+
+
+[20-MAR-2024 07:20:05]: **Starts**
+[20-MAR-2024 07:20:05]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Import Data Started
+into exception for import dataORA-02019: connection description for remote database not found
+Import Data Ended
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 20-MAR-2024 07:20:05
+
++---------------------------------------------------------------------------+

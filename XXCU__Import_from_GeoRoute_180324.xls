@@ -1,0 +1,41 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCUGEOROUTES2ROUTES: XXCU: Import from GeoRoute
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 12:15:03
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 12:15:04]: **Starts**
+[18-MAR-2024 12:15:04]: **Ends**
+No distribution unit numbers are provided to import master route and PiP/Newspaper route
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+fnd_trace start_trace...identifier: 0318_131503 sid/serial/module/action: 3828/968/e:XXCU:cp:xxcu/XXCUGEOROUTES2ROUTES/XXCU/XXCU_RUTE_RAPPORTER_F
+SET_IDENT_FOR_SESS: user: SINHAN, requestID: 38442591
+FND_TRACE.start_trace: Enabling trace
+PV_IN_MR_UNIT_NUMBER-
+PV_IN_PR_UNIT_NUMBER-
+PV_IN_NP_UNIT_NUMBER-
+No distribution unit numbers are provided to import master route and PiP/Newspaper route
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+139
+
++---------------------------------------------------------------------------+
+Concurrent request completed
+Current system time is 18-MAR-2024 12:15:04
+
++---------------------------------------------------------------------------+

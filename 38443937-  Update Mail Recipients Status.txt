@@ -1,0 +1,209 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCURRSMAILFWD: XXCU: Update Mail Recipients Status
++---------------------------------------------------------------------------+
+
+Current system time is 27-MAR-2024 09:22:01
+
++---------------------------------------------------------------------------+
+
+[27-MAR-2024 09:22:01]: **Starts**
+[27-MAR-2024 09:22:43]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Fetch all the mail recipients
+Start Time:27-MAR-2024 09:22:01
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+The column names passed in for this "RRS_SITE" do not match the column names registered in the database.
+
+Entity: .  Row Identifier: 1.  
+There is no row of "Mailbox - Recipient Information" like the row you wanted to alter.
+
+Total Number of records selected:20
+Total Number of mailrecipients removed:20
+Calling PRINT_REPORT
+PRINT_REPORT Begin
+PRINT_REPORT End
+End Time:27-MAR-2024 09:22:43
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+3272
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 27-MAR-2024 09:22:43
+
++---------------------------------------------------------------------------+

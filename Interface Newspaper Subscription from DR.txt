@@ -1,0 +1,46 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_RRS_DR_NWSPPR_SUBS: XXCU: Interface Newspaper Subscription from DR
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 12:49:08
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 12:49:08]: **Starts**
+[18-MAR-2024 12:49:08]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Start Main: 
+Dequeue_msg block started
+Start Dequeuing: 
+No more messages in JMS queue
+Total number of Dequeued Messages: 0
+Total number of records ready to be inserted in DATA: 0
+Total number of records ready to be updated in DATA: 0
+Total number of records ready to be inserted: 0
+Total number of records ready to be updated: 0
+END
+SQLERRM at end: ORA-0000: normal, successful completion
+SQLCODE at end: 0
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 12:49:08
+
++---------------------------------------------------------------------------+

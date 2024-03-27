@@ -1,0 +1,42 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_RRS_DEL_DUP_SITE_USES: XXCU: Delete Duplicate Site Uses
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 12:54:05
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 12:54:05]: **Starts**
+[18-MAR-2024 12:54:05]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Maximum number of non-primary duplicate site uses deleted are: 50.
+Input parameter:  
++---------------------------------Summary-----------------------------------+
+Total no of records processed:  0
+Total no of XXCU_DELIVERYMB deleted:  0
+Total no of XXCU_MAILBOX deleted:  0
+Total no of XXCU_STOP deleted:  0
+Total no of records deleted:  0
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 12:54:05
+
++---------------------------------------------------------------------------+

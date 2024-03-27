@@ -1,0 +1,162 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_UNPLACED_ACTOR: Aktører som er plassert i Arbeidsliste Kasse i Rute
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 14:22:44
+
++---------------------------------------------------------------------------+
+
+CP main executing runProgram for oracle.apps.xdo.oa.cp.JCP4XDODataEngine
+XDO Data Engine Version No: 10.1.3.4.2
+Resp: 50735
+Org ID : 81
+Request ID: 38442618
+All Parameters: p_unit=:p_email=
+Data Template Code: XXCU_UNPLACED_ACTOR
+Data Template Application Short Name: XXCU
+Debug Flag: N
+{p_unit=, p_email=}
+Calling XDO Data Engine...
+[031824_152246668][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in CP parameter list : null
+[031824_152246670][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in Apps Preference : null
+[031824_152246670][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in Apps Profile : null
+[031824_152246670][][EXCEPTION] [DEBUG] Trying to get XDO_TOP in Apps Env : /u01/shdev/apps/fs1/EBSapps/appl/xdo/12.0.0
+[031824_152246670][][EXCEPTION] [DEBUG] Setting XDO_TOP to java system properties : /u01/shdev/apps/fs1/EBSapps/appl/xdo/12.0.0
+XDO Config properteies :null
+[031824_152246671][][STATEMENT] Start process Data
+[031824_152246671][][STATEMENT] Process Data ...
+[031824_152246671][][STATEMENT] Executing data triggers...
+[031824_152246672][][STATEMENT] BEGIN
+APPS.XXCU_BURSTING.p_unit := :p_unit ;
+APPS.XXCU_BURSTING.p_email := :p_email ;
+
+ :XDO_OUT_PARAMETER := 1; 
+END;
+
+[031824_152246672][][STATEMENT] 1: :
+[031824_152246672][][STATEMENT] 2: :
+[031824_152246674][][STATEMENT] Executing data triggers...
+[031824_152246674][][STATEMENT] p_unit
+[031824_152246674][][STATEMENT] p_email
+[031824_152246674][][STATEMENT] Writing Data ...
+[031824_152246675][][STATEMENT] Sql Query :START_DATAQ: select to_char(sysdate, 'YYYY.MM.DD') as date_started
+      ,to_char(sysdate, 'HH24:MI:SS') as time_started
+      ,to_char(sysdate, 'YYYYMMDD') as date_started_short
+      ,to_char(sysdate, 'HH24MISS') as time_started_short
+      from dual
+[031824_152246685][][STATEMENT] Sql Query :TO_EMAIL_DATAQ: select nvl(:p_email, 'adresseajourhold@posten.no') AS TO_EMAIL_ADDRESS
+        from dual
+[031824_152246685][][STATEMENT] 1: p_email:null
+[031824_152246686][][STATEMENT] Sql Query :CC_EMAIL_DATAQ: SELECT CASE
+            WHEN :p_email IS NOT NULL THEN ''
+            ELSE ('marit.gravdehaug@bring.com')
+            END AS CC_EMAIL_ADDRESS
+            FROM DUAL
+[031824_152246686][][STATEMENT] 1: p_email:null
+[031824_152246688][][STATEMENT] Sql Query :RUTE_UA_DATAQ: SELECT RSE_O.C_EXT_ATTR1 ENHETSNR,
+  LU.DESCRIPTION ENHETSNAVN ,
+  RST.NAME KASSENAVN ,
+  RS.SITE_STATUS_CODE ARBEIDSLISTE_STATUS ,
+  HP.PARTY_NUMBER AKTORNR ,
+  HP.PARTY_NAME NAVN ,
+  L.ADDRESS1
+  ||' '
+  ||L.ADDRESS2
+  ||L.ADDRESS3 GATE_NR_BOK ,
+  L.POSTAL_CODE
+  ||' '
+  ||L.CITY POSTNR_STED ,
+  RSE.CREATION_DATE DATO_UPL ,
+  CASE
+    WHEN TRUNC(SYSDATE) - TRUNC(RSE.CREATION_DATE) < 5
+    THEN '0 - 4 dager'
+    WHEN TRUNC(SYSDATE) - TRUNC(RSE.CREATION_DATE) < 11
+    THEN '5 - 10 dager'
+    WHEN TRUNC(SYSDATE) - TRUNC(RSE.CREATION_DATE) < 18
+    THEN '11 - 17 dager'
+    WHEN TRUNC(SYSDATE) - TRUNC(RSE.CREATION_DATE) < 30
+    THEN '18 - 30 dager'
+    ELSE 'Eldre enn 30 dager'
+  END ALDERSGRUPPE ,
+  DECODE(XXCU_UTIL_PKG.GET_MAIL_REC_STATUS (HPS.ATTRIBUTE7, HPS.ATTRIBUTE8, HPS.ATTRIBUTE19, HPS.ATTRIBUTE20, HPS.ATTRIBUTE9) 
+        ,'MF', 'Adresseendring' ,'U', 'Ukjent' ,'A', 'Aktiv' ,'PA', 'Preaktiv' ,'D', 'Slettet' ,'I', 'Fredningsperiode') AKTORSTATUS
+FROM RRS.RRS_SITES_EXT_B RSE ,
+  RRS.RRS_SITES_EXT_B RSE_O ,
+  RRS.RRS_SITES_B RS ,
+  RRS_SITES_TL RST ,
+  HZ_PARTY_SITES HPS ,
+  HZ_PARTIES HP ,
+  AR.HZ_LOCATIONS L ,
+  APPS.FND_LOOKUP_VALUES_VL LU
+WHERE RSE.SITE_ID          = RS.SITE_ID
+AND RS.SITE_ID             = RST.SITE_ID
+AND RSE.C_EXT_ATTR2        = TO_CHAR(HPS.PARTY_SITE_ID)
+AND HPS.LOCATION_ID        = L.LOCATION_ID
+AND HP.PARTY_ID            = HPS.PARTY_ID
+AND RST.LANGUAGE           = 'N'
+AND RSE.ATTR_GROUP_ID      = '231'
+AND RSE.SITE_USE_TYPE_CODE = 'XXCU_MAILBOX'
+AND RST.NAME LIKE '%Arbeidsliste%'
+AND RSE_O.ATTR_GROUP_ID      = 224
+AND RSE_O.SITE_USE_TYPE_CODE = 'XXCU_MAILBOX'
+AND RSE_O.SITE_ID            = RS.SITE_ID
+AND RSE_O.C_EXT_ATTR1        = LU.LOOKUP_CODE
+and lu.lookup_type           = 'XXCU_TEAM_UNITS'
+AND RSE_O.C_EXT_ATTR1        = NVL(:P_UNIT,RSE_O.C_EXT_ATTR1)
+order by 1
+[031824_152246689][][STATEMENT] 1: P_UNIT:null
+[031824_152321502][][STATEMENT] Executing data triggers...
+[031824_152321502][][STATEMENT] Declare 
+l_flag Boolean; 
+BEGIN 
+l_flag := apps.XXCU_BURSTING.submit_bursting ;
+if (l_flag) then 
+:XDO_OUT_PARAMETER := 1; 
+ end if; 
+ end; 
+
+[031824_152321518][][EVENT] Data Generation Completed...
+[031824_152321518][][EVENT] Total Data Generation Time 35.0 seconds
+CP main completed runProgram for oracle.apps.xdo.oa.cp.JCP4XDODataEngine
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+p_pid=
+myCRID=38442618
+bursting_request_id=38442620
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+Executing request completion options...
+
+Output file size: 
+4259045
+
++--------- 1) POST-PROCESSING  ---------+
+Beginning post-processing of request 38442618 on node VM-APP-SH-DEV-01 at 18-MAR-2024 14:23:21.
+-- Publishing output
+
+ 
+Post-processing of request 38442618 completed at 18-MAR-2024 14:23:24.
+ 
+CONC-POST-PROCESSING RESULTS
+
+-- PUBLISH: 
+CONC-OPP-XMLPUB SUCCESS
++---------------------------------------+
+
+
+Finished executing request completion options.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 14:23:24
+
++---------------------------------------------------------------------------+

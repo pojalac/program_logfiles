@@ -1,0 +1,43 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_STOP_POST_CODE_UPD: XXCU Stop Post Code Update Prog
++---------------------------------------------------------------------------+
+
+Current system time is 18-MAR-2024 14:28:08
+
++---------------------------------------------------------------------------+
+
+[18-MAR-2024 14:28:08]: **Starts**
+[18-MAR-2024 14:31:28]: **Ends**
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
+Job Started
+Last run date 
+Update Stop Id 170703 with post code 0902
+Update Stop Id 653269 with post code 6297
+Update Stop Id 5533032 with post code 4020
+Update Stop Id 573848 with post code 6298
+Update Stop Id 4388118 with post code 6286
+Update Stop Id 251292 with post code 7454
+Update Stop Id 4388117 with post code 6286
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+0
+Deleting empty output file.
+
++---------------------------------------------------------------------------+
+Concurrent request completed successfully
+Current system time is 18-MAR-2024 14:31:28
+
++---------------------------------------------------------------------------+

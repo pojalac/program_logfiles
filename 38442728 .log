@@ -1,0 +1,162 @@
++---------------------------------------------------------------------------+
+Posten Tilpasninger: Version : 12.2
+
+Copyright (c) 1998, 2013, Oracle and/or its affiliates. All rights reserved.
+
+XXCU_ADR_RETRIGGER_BE: XXCU : Retrigger events missing in RUTE
++---------------------------------------------------------------------------+
+
+Current system time is 19-MAR-2024 06:52:22
+
++---------------------------------------------------------------------------+
+
+
++-----------------------------
+| Starting concurrent program execution...
++-----------------------------
+
++---------------------------------------------------------------------------+
+Start of log messages from FND_FILE
++---------------------------------------------------------------------------+
++---------------------------------------------------------------------------+
+End of log messages from FND_FILE
++---------------------------------------------------------------------------+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+ERROR:
+ORA-04088: error during execution of trigger 'APPS.FND_TRACE_OFF'
+ORA-00604: error occurred at recursive SQL level 1
+ORA-02067: transaction or savepoint rollback required
+
+
+SP2-0359: memory exhausted
+
+
+Concurrent Manager encountered an error while running SQL*Plus for your concurrent request 38442728.
+
+Review your concurrent request log and/or report output file for more detailed information.
+
+
++---------------------------------------------------------------------------+
+No completion options were requested.
+
+Output file size: 
+64
+
++---------------------------------------------------------------------------+
+Concurrent request completed
+Current system time is 19-MAR-2024 06:54:19
+
++---------------------------------------------------------------------------+
